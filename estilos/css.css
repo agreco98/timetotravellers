@@ -300,3 +300,7 @@ section .wave {
 section .border-login {
   border-right: 1px solid #ea8c8c46;
   border-right-width: thin; }
+
+.text-mine-guia{
+  font-size: 100px;
+}
