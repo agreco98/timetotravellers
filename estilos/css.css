@@ -19,12 +19,10 @@ body {
     left: 0;
     background-image: linear-gradient(rgba(255, 255, 255, 0.1), #221924); }
   .header .bg-dark {
-    position: fixed;
+    position: absolute;
     z-index: 20;
-    width: 100%; }
-  @media (min-width: 768px) {
-    .header .bg-dark {
-      background-color: transparent !important; } }
+    width: 100%;
+    background-color: transparent!important; }
   .header .navg a {
     color: #f4f4f4 !important;
     font-family: 'Roboto';
@@ -67,20 +65,26 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }
-  .fondo .iconos {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    justify-items: center; }
-    .fondo .iconos .icono {
-      height: 100px;
-      width: 100px;
-      border-radius: 50%;
-      background-color: #fff;
-      box-shadow: 3px 3px 6px #999;
-      margin: 1rem;
-      border: 2px solid #EA8C8C; }
+  .fondo .icono {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 3px 3px 6px #999;
+    margin: 1rem;
+    border: 2px solid #EA8C8C; }
+    .fondo .icono .fa-map-marked-alt{
+      font-size: 3.5em;
+      color: #3b3b3b;
+      margin-top: 9px;}
+    .fondo .icono .fa-users{
+      font-size: 3.5em;
+      color: #3b3b3b;
+      margin-top: 12px;}
+    .fondo .icono .fa-envelope{
+      font-size: 3.5em;
+      color: #3b3b3b;
+      margin-top: 13px;}
   .fondo #main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -318,12 +322,10 @@ section .border-login {
     left: 0;
     background-image: linear-gradient(rgba(255, 255, 255, 0.1), #221924); }
   .header-guia .bg-dark {
-    position: fixed;
+    position: absolute;
     z-index: 20;
-    width: 100%; }
-  @media (min-width: 768px) {
-    .header-guia .bg-dark {
-      background-color: transparent !important; } }
+    width: 100%;
+    background-color: transparent !important; }
   .header-guia .navg a {
     color: #f4f4f4 !important;
     font-family: 'Roboto';
@@ -345,3 +347,125 @@ section .border-login {
     font-family: 'Dancing Script'; }
   .header-guia .text-mine-guia {
     font-size: 65px; }
+
+.lugares{
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-indent: 20px;
+    padding: 10px;
+    margin: 0;
+    background-color: #1B516A;
+    width: 200px;
+    color: #fff;
+    border-radius: 0px 55px 55px 0px;
+    -moz-border-radius: 0px 55px 55px 0px;
+    -webkit-border-radius: 0px 55px 55px 0px;
+    border: 0px solid #000000;
+    text-align: center; }
+
+.btn-primary{
+  background-color: #1B516A !important;
+  border: none !important;
+  padding: 10px;
+  font-family: Roboto;
+  text-transform: bold;
+}
+  .btn-primary:hover {
+    background-color: #1b516aaf!important;
+    color: #f4f4f4!important;}
+
+.header-contacto{
+  width: 100%;
+min-height: 80vh;
+background-image: url(../imágenes/contacto.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed; }
+.header-contacto:before {
+  content: '';
+  width: 100%;
+  min-height: 80vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), #221924); }
+  .header-contacto .bg-dark {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    background-color: transparent !important; }
+  .header-contacto .navg a {
+    color: #f4f4f4 !important;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 8px 15px !important;
+    text-align: center;
+    margin: 15px 4px; }
+  .header-contacto .navg a:hover {
+    border-width: 0 0 3.5px;
+    border-style: solid;
+    border-radius: 2px; }
+  .header-contacto .text-header {
+    min-height: 80vh;
+    color: #f4f4f4; }
+  .header-contacto .text-mine {
+    font-family: 'Dancing Script';
+    font-size: 70px;
+    margin-bottom: 10px; }
+
+.header-trinity {
+  width: 100%;
+  min-height: 80vh;
+  background-image: url(../imágenes/trinity.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+  .fa-arrow-left{
+    color: #f4f4f4a4;
+    background-color: #3b3b3b96;
+    font-size: 1.5em;
+    border-radius: 50%;
+    padding: 4px;
+  }
+
+  .fa-bookmark{
+    color: #3b3b3b;
+    font-size: 1.8em;
+  }
+
+  .clasificacion{
+    background-color: #f4f4f4;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 2px solid #1B516A;
+    width: 50%;
+  }
+
+  .clasificacion-span{
+    background-color: #E4BBAB;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+  }
+
+  .header-templebar{
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(../imágenes/temple-bar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; }
+  
+  .header-st{
+      width: 100%;
+      min-height: 80vh;
+      background-image: url(../imágenes/st-stephens-green.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed; }      

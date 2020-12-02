@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Time to Travellers</title>
+    <title>Lugares turísticos</title>
+    <link rel = "icon" href = "imágenes/LogoTiempodeviajerosconfondo4.svg" type = "image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
     <link rel= "stylesheet" href="estilos/css.css"/>
 </head>
 
 <body>
    
-<header class="header-guia"> 
+  <header class='header-guia'>
     <div class='bg-dark'>
         <div class='container-fluid'>
           <nav class="navbar navbar-expand-lg navbar-light bgcolor">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav w-100 justify-content-end navg">
                 <li class="nav-item active">
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="misViajes.html" title = "Mis viajes">Mis viajes</a>
+                  <a class="nav-link" href="index.html" title = "Home">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="guiaDeViajes.html" title = "Guía de viajes">Guía de viajes</a>
+                  <a class="nav-link" href="guiaDeViajes.html" title = "Lugares turísticos">Lugares turísticos</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="redSocialViajera.html" title = "Red Social Viajera">Red social</a>
@@ -37,51 +42,122 @@
         </div>
     </div>
     <div class='text-header d-flex align-items-center'>
-        <div class='container'>
-          <div class='row d-flex align-items-center'>
-            <div class='col-sm-12 col-md-12 col-lg-12 col-xl-12 '>
-              <h2 class='text-center text-mine-guia'>¿A dónde volamos?</h2>
-            </div>
+      <div class='container'>
+        <div class='row text-center'>
+          <div class='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
+            <h1 class='text-mine'>¿A dónde viajamos?</h1>
           </div>
         </div>
       </div>
-</header>
-    <br>
-    
+    </div>
+  </header>
 
-    <footer id = footer>
 
-        <div>
-            <h4 id = acercade> Acerca de </h4>
-            <ul id = acercade2>
-                <li>¿Quiénes somos?</li>
-                <li>Historia</li>
-                <li>Time to Travellers</li>
-            </ul>
+<section class="my-5"> <h2 class="lugares">Dublin</h2></section>
+
+   
+  <div class="container">
+      <div class="row mb-5">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div id="carousel-2" class="carousel slide shadow" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card" style="min-width: 160vh;">
+                  <img src="./imágenes/trinity.jpg" class="card-img-top" height="450rem" alt="Trinity College">
+                  <div class="card-body">
+                    <h5 class="card-title">Trinity College</h5>
+                    <p class="card-text">La universidad más antigua de Irlanda.</p>
+                    <a href="Trinity College.html" class="btn btn-primary btn-block">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card" style="min-width: 160vh;">
+                    <img src="./imágenes/temple-bar.jpg" class="card-img-top" height="450rem" alt="Temple bar">
+                    <div class="card-body">
+                      <h5 class="card-title">Temple Bar</h5>
+                      <p class="card-text">El mejor bar de todos los irlandeses.</p>
+                      <a href="templebar.html" class="btn btn-primary btn-block">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card" style="min-width: 160vh;">
+                      <img src="./imágenes/st-stephens-green.jpg" class="card-img-top" height="450rem" alt="Grafton Street">
+                      <div class="card-body">
+                        <h5 class="card-title">St Stephens Green</h5>
+                        <p class="card-text">Uno de los parques más famosos de Dublin.</p>
+                        <a href="st.html" class="btn btn-primary btn-block">Ver más</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            <a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
-        <div>
-            <ul> 
-                <figure id = footerlogo> <img id = footerlogo src= "imágenes/LogoTiempodeviajerosconfondo4.svg" alt = "Time to Travellers" height="100px"></figure>
-                <figcaption id = volamos>¿Volamos?</figcaption>
-            </ul>
+          </div>
+    </div>
+
+<footer style="background-color: #3B3B3B;">
+  <div class="container-fluid text-center text-md-left text-white footer-texto" >
+      <div class="row py-5">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
+         <h6 class="font-weight-bold" id="timetotravellers">Time to Travellers</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 80px; background-color: #EA8C8C; min-height: 2px;">
+          <p>Podrás planificar tu viaje como vos quieras. Contarás con una red social viajera para  
+            unirte a diferentes grupos, conversar con 
+            otros aventureros y armar el viaje en vivo 
+            con tu compañero.</p>
         </div>
-        <div>
-            <h4 id = seguinos> Seguinos </h4>
-            <ul id = app> 
-                <li>Instagram</li>
-                <li>Youtube</li>
-                <li>Nuestra app</li>
-            </ul>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+          <h6 class="font-weight-bold footer-texto2">Acerca de</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #EA8C8C; min-height: 2px;">
+          <ul class="list-unstyled">
+            <li class="mb-3">¿Quiénes somos?</li>
+            <li class="mb-3">Historia</li>
+          </ul>
+
         </div>
-        </footer>          
-           <br> 
-           <div>
-            <ul id = politicas>
-                <li id= terminos>Términos de uso</li>
-                <li id = privacidad>Políticas de privacidad</li>
-            </ul>
-            </div>
-        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+          <h6 class="font-weight-bold footer-texto2">Seguinos</h6>
+          <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #EA8C8C; min-height: 2px;">
+          <ul class="list-unstyled">
+            <li class="mb-3">Instagram</li>
+            <li class="mb-3">Youtube</li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+          <div class="mt-3 "><img src= "imágenes/LogoTiempodeviajerosconfondo4.svg" alt = "Time to Travellers" height="100px"></div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+<section class="container-fluid-fluid">
+</div class="row">
+  <div class="text-center py-2 text-white" id="footer-2">
+    Time to Travellers 
+  </div>
+</div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/998daf6470.js" crossorigin="anonymous"></script>
     
     </body>
     

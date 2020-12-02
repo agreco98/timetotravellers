@@ -6,100 +6,148 @@
     <meta name="description" content="Contactate con Time to Travellers">
     <meta name="description" content="Contacto, Ayuda, Seguros, Viajes, Working Holydays, Planificación, Aventurar, Animar">
     <title>Contacto</title>
+    <link rel = "icon" href = "imágenes/LogoTiempodeviajerosconfondo4.svg" type = "image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
     <link rel= "stylesheet" href="estilos/css.css"/>
 </head>
 <body>
     
-    <header> 
-        <nav id = barra>
-            <a href = "index.html" title = "Home"><img id="logo" src= "imágenes/LogoTiempodeviajerosconfondo4.svg" alt = "Time to Travellers" height="50px"></a>
-            <ul>
-                <li><a class = hipervinculo href = "misViajes.html" title = "Mis viajes">Mis viajes</a></li>
-                <li><a class = hipervinculo href = "guiaDeViajes.html" title = "Guía de viajes">Guía de viajes</a></li>
-                <li><a class = hipervinculo href = "redSocialViajera.html" title = "Red Social Viajera">Red Social Viajera</a></li>
-                <li><a class = hipervinculo href = "miPerfil.html" title = "Mi perfil">Mi perfil</a></li>
-                <li><a class = hipervinculo href = "Contacto.html" title = "Contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class='header-contacto'>
+        <div class='bg-dark'>
+            <div class='container-fluid'>
+              <nav class="navbar navbar-expand-lg navbar-light bgcolor">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav w-100 justify-content-end navg">
+                    <li class="nav-item active">
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html" title = "Home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="guiaDeViajes.html" title = "Lugares turísticos">Lugares turísticos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="redSocialViajera.html" title = "Red Social Viajera">Red social</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Contacto.html" title = "Contacto">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+        </div>
+        <div class='text-header d-flex align-items-center'>
+          <div class='container'>
+            <div class='row text-center'>
+                <div class='col-sm-12 col-md-12 col-lg-12 col-xl-12'>
+                    <h1 class='text-mine'>Contacto</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
 
-    <br>
+      <section class="container">
 
-    <div class="form">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 
-        <div class="form2">
-			<h2 class = form2_h2>Contactanos<span> Te ayudamos a volar</span></h2>
-		</div>	
+                <div class="form">
 
-        <form action ="#" method="POST" id="consulta" onsubmit = return false>
+                        <div class="form2">
+                            <h2 class = form2_h2>Contactanos<span> Te ayudamos a volar</span></h2>
+                        </div>	
+
+                            <form action ="#" method="POST" id="consulta" onsubmit = return false>
 
 
-                <input type= "text" name= "nombre" class = "campo" placeholder = "Nombre"> 
-                <span id="errornombre"></span>
-                
-                <input type= "text" name= "apellido" class = "campo" placeholder = "Apellido">
-                <span id="errorapellido"></span>
-                
-                <input type= "text" name= "mail" class = "campo" placeholder = "E-mail">
-                <span id="errormail"></span><br> 
+                                    <input type= "text" name= "nombre" class = "campo" placeholder = "Nombre"> 
+                                    <span id="errornombre"></span>
+                                    
+                                    <input type= "text" name= "apellido" class = "campo" placeholder = "Apellido">
+                                    <span id="errorapellido"></span>
+                                    
+                                    <input type= "text" name= "mail" class = "campo" placeholder = "E-mail">
+                                    <span id="errormail"></span><br> 
 
-                <textarea type= "text" name= "text" class = "campo" placeholder = Cuentanos > 
-                </textarea><br> 
+                                    <textarea type= "text" name= "text" class = "campo" placeholder = Cuentanos > 
+                                    </textarea><br> 
 
-                <div id= "boton">
+                                    <div id= "boton">
 
-                <input type="submit" value= "Enviar" id = "enviar"><br> 
+                                    <input type="submit" value= "Enviar" id = "enviar"><br> 
+
+                                    </div>
+
+                            
+                            </form>
 
                 </div>
-
-        
-        </form>
-
-        </div>
-
-    <br>
-
-    
-
-    <aside id = frase>
-        <cite id = cita> "Los mapas del alma no tienen fronteras"</cite>
-        <br>
-        <br>
-        <cite id= autor> E. Galeano </cite>
-    </aside>
-
-    <footer id = footer>
-
-        <div>
-            <h4 id = acercade> Acerca de </h4>
-            <ul id = acercade2>
-                <li>¿Quiénes somos?</li>
-                <li>Historia</li>
-                <li>Time to Travellers</li>
-            </ul>
-        </div>
-        <div>
-            <ul> 
-                <figure id = footerlogo> <img id = footerlogo src= "imágenes/LogoTiempodeviajerosconfondo4.svg" alt = "Time to Travellers" height="100px"></figure>
-                <figcaption id = volamos>¿Volamos?</figcaption>
-            </ul>
-        </div>
-        <div>
-            <h4 id = seguinos> Seguinos </h4>
-            <ul id = app> 
-                <li>Instagram</li>
-                <li>Youtube</li>
-                <li>Nuestra app</li>
-            </ul>
-        </div>
-        </footer>          
-           <br> 
-           <div>
-            <ul id = politicas>
-                <li id= terminos>Términos de uso</li>
-                <li id = privacidad>Políticas de privacidad</li>
-            </ul>
             </div>
+        </div>
+    </section>
+
+        <footer style="background-color: #3B3B3B;">
+            <div class="container-fluid text-center text-md-left text-white footer-texto" >
+                <div class="row py-5">
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
+                   <h6 class="font-weight-bold" id="timetotravellers">Time to Travellers</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 80px; background-color: #EA8C8C; min-height: 2px;">
+                    <p>Podrás planificar tu viaje como vos quieras. Contarás con una red social viajera para  
+                      unirte a diferentes grupos, conversar con 
+                      otros aventureros y armar el viaje en vivo 
+                      con tu compañero.</p>
+                  </div>
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                    <h6 class="font-weight-bold footer-texto2">Acerca de</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #EA8C8C; min-height: 2px;">
+                    <ul class="list-unstyled">
+                      <li class="mb-3">¿Quiénes somos?</li>
+                      <li class="mb-3">Historia</li>
+                    </ul>
+          
+                  </div>
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                    <h6 class="font-weight-bold footer-texto2">Seguinos</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #EA8C8C; min-height: 2px;">
+                    <ul class="list-unstyled">
+                      <li class="mb-3">Instagram</li>
+                      <li class="mb-3">Youtube</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                    <div class="mt-3 "><img src= "imágenes/LogoTiempodeviajerosconfondo4.svg" alt = "Time to Travellers" height="100px"></div>
+                  </div>
+                </div>
+              </div>
+          </footer>
+          
+          
+          <section class="container-fluid-fluid">
+            </div class="row">
+              <div class="text-center py-2 text-white" id="footer-2">
+                Time to Travellers 
+              </div>
+            </div>
+          </section>
+                
+           
+          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+          integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+          crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+          crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+          integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+          crossorigin="anonymous"></script>
+          <script src="https://kit.fontawesome.com/998daf6470.js" crossorigin="anonymous"></script>
 
 </body>
 

@@ -7,13 +7,10 @@
     y te contactarás con los que ya vivieron la experiencia que querés">
     <meta name="description" content="Viajes, Working Holydays, Planificación, Aventurar, Animar, Sueños, Libertad">
     <title>Time to Travellers</title>
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet"
-					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-					integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-                    crossorigin="anonymous">
+    <link rel = "icon" href = "imágenes/LogoTiempodeviajerosconfondo4.svg" type = "image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
     <link rel= "stylesheet" href="estilos/css.css"/>
     
     
@@ -26,16 +23,17 @@
         <div class='container-fluid'>
           <nav class="navbar navbar-expand-lg navbar-light bgcolor">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav w-100 justify-content-end navg">
                 <li class="nav-item active">
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="misViajes.html" title = "Mis viajes">Mis viajes</a>
+                  <a class="nav-link" href="index.html" title = "Home">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="guiaDeViajes.html" title = "Guía de viajes">Guía de viajes</a>
+                  <a class="nav-link" href="guiaDeViajes.html" title = "Lugares turísticos">Lugares turísticos</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="redSocialViajera.html" title = "Red Social Viajera">Red social</a>
@@ -54,7 +52,7 @@
           <div class='col-sm-8 col-md-8 col-lg-8 col-xl-8'>
             <h2 class='text-mine'> Time to Travellers</h2>
             <p id='p'>¿Estás listo para empezar tu aventura?</p>
-            <a href="" class='btn btn-mine'><span>¡Viajemos!</span></a>
+            <a href="#empacamos" class='btn btn-mine'><span>¡Viajemos!</span></a>
           </div>
         </div>
       </div>
@@ -63,32 +61,94 @@
 
 
 <section class="fondo">
-    <div class = "iconos mb-4">
-        <article class = "icono mt-5"></article> 
-        <article class = "icono mt-5"></article> 
-        <article class = "icono mt-5"></article>
+    <div class = "container-fluid">
+      <div class="row mb-3">
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
+          <article class = "icono mt-5">
+            <a class="nav-link" href="guiaDeViajes.html"><i class="fas fa-map-marked-alt d-flex justify-content-center"></i></a>
+          </article> 
+        </div>
+
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
+          <article class = "icono mt-5"><a class="nav-link" href="redSocialViajera.html">
+            <i class="fas fa-users d-flex justify-content-center"></i></a>
+          </article> 
+        </div>
+        
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
+          <article class = "icono mt-5"><a class="nav-link" href="Contacto.html">
+            <i class="fas fa-envelope d-flex justify-content-center"></a></i>
+          </article>
+      </div>
     </div>
+  </div>
     <main>
         <h2 id = empacamos>¿Empacamos?</h2>
-        <section id = main class = 'animate__animated  animate__fadeInDown'>
-                <span class= "check fa-lg" style="font-size: 20px"><i class="fas fa-check d-flex justify-content-center mt-1 py-2 check2"></i></span>
-                <div class = main2>Elegí tu destino</div>
-                <div class = arrow><img src= "imágenes/path.svg" alt = "Arrow" height="20" width="20"/></div>
+          <section class="container">
+            <div class="row d-flex justify-content-center">
+              <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 d-flex justify-content-end">
 
                 <span class= "check fa-lg" style="font-size: 20px"><i class="fas fa-check d-flex justify-content-center mt-1 py-2 check2"></i></span>
-                <div class = main2>Creá tu primera actividad viajera</div>
-                <div class = arrow><img src= "imágenes/path.svg" alt = "Arrow" height="20" width="20"/></div>
+                
+              </div>
 
-                <span class= "check fa-lg" style="font-size: 20px"><i class="fas fa-check d-flex justify-content-center mt-1 py-2 check2"></i></span>
-                <div class = main2>Creá tu usuario en la red social</div>
-                <div class = arrow> <img src= "imágenes/path.svg" alt = "Arrow" height="20" width="20"/></div>
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center">
+                
+                <a class="nav-link" href="guiaDeViajes.html"><div class = main2>Mirá los destinos turísticos</div></a>
+                
+              </div>
+
+              <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 d-flex justify-content-start">
+                
+                <div class = arrow><a class="nav-link" href="guiaDeViajes.html"><img src= "imágenes/path.svg" alt = "Arrow" height="20" width="20"/></div></a>
+              </div>
+
+            </div>
+
+            <div class="row d-flex justify-content-center">
+              <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 d-flex justify-content-end">
+            
+                  <span class= "check fa-lg" style="font-size: 20px"><i class="fas fa-check d-flex justify-content-center mt-1 py-2 check2"></i></span>
+              
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center">
+                  
+                  <a class="nav-link" href="redSocialViajera.html"><div class = main2>Creá tu usuario en la red social</div></a>
+                
+              </div>        
+                  
+              <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 d-flex justify-content-start">
+
+                  <div class = arrow><a class="nav-link" href="redSocialViajera.html"><img src= "imágenes/path.svg" alt = "Arrow" height="20" width="20"/></a></div>
+
+              </div>
+
+            </div> 
+
+            <div class="row d-flex justify-content-center">
+              <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 d-flex justify-content-end">
+            
+                  <span class= "check fa-lg" style="font-size: 20px"><i class="fas fa-check d-flex justify-content-center mt-1 py-2 check2"></i></span>
+              
+              </div>   
+              
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center">
+                  
+                  <a class="nav-link" href="Contacto.html"><div class = main2>Contactanos para que armemos tu viaje</div></a>
+                      
+              </div>
+
+              <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 d-flex justify-content-start">
+
+                  <div class = arrow><a class="nav-link" href="Contacto.html"><img src= "imágenes/path.svg" alt = "Arrow" height="20" width="20"/></a> </div>
+              
+              </div>
+
+            </div>
+      
         </section>
     </main>
-    <div class = "iconos mt-4 mb-4">
-        <article class = icono></article> 
-        <article class = icono></article> 
-        <article class = icono></article>
-    </div>
     <div class="container-fluid">
       <div class="row-2">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 "></div>
@@ -156,17 +216,22 @@
   </div>
 </section>
       
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/998daf6470.js" crossorigin="anonymous"></script>
-      
+ 
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/998daf6470.js" crossorigin="anonymous"></script>
+<script>
+  $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 190);
+  })
+</script>
           
 </body>
 
